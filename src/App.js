@@ -170,7 +170,7 @@ function App () {
         </FormControl>
 
         <FormControlLabel
-          label="Poste libres uniquement"
+          label="Postes libres uniquement"
           control={
             <Checkbox
               label="Avec des postes disponibles uniquement"
