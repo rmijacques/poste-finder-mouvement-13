@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      -master
+      - master
 jobs:
   deploy:
     name: deploy app to gh pages
