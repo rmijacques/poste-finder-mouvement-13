@@ -7,10 +7,9 @@ jobs:
     name: deploy app to gh pages
     runs-on: ubuntu-latest
     steps:
-steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '12' 
-    - name: Node Install
-      run: npm run deploy
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '12' 
+      - name: Node Install
+        run: npm run deploy
