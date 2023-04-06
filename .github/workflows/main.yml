@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+      -master
+jobs:
+  deploy:
+    name: deploy app to gh pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          package-manager: npm
+          command: run deploy
