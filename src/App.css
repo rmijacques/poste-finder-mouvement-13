@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height:100%;
 }
 
 .App-logo {
@@ -11,6 +12,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.form-container{
+  width: 100%;
+  padding: 30px;
 }
 
 .App-header {
