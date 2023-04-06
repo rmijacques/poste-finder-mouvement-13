@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { DataGrid } from '@mui/x-data-grid';
 import { Box, FormControl, MenuItem, InputLabel, Select, Checkbox, ListItemText, OutlinedInput, Button, FormControlLabel } from '@mui/material';
 import './App.css';
